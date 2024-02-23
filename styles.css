@@ -28,7 +28,7 @@
 }
 
 
-.page-about {
+.page-about-capture {
 
     .about-capture {
         position: absolute;
@@ -44,6 +44,25 @@
     .about-image {
         max-width: 100%;
         height: auto;
+    }
+}
+
+
+.page-about {
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    padding: 5%;
+    line-height: 1.5;
+    color: #2B2D42;
+
+    .main-text-block {
+        font-size: 1.5vw;
+        font-weight: bold;
+    }
+
+    .text-block {
+        font-size: 1.25vw;
     }
 }
 
