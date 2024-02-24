@@ -1,6 +1,5 @@
 .page-header {
     width: 100%;
-    height: 20%;
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -63,6 +62,36 @@
 
     .text-block {
         font-size: 1.25vw;
+    }
+}
+
+
+.page-feedback {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 20%;
+    background-color: #EF233C;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+
+    .feedback-element {
+        display: flex;
+        flex-direction: column;
+
+        .feedback-content {
+            padding-right: 50%;
+            font-size: 2vw;
+            font-weight: bold;
+            line-height: 1.5;
+        }
+
+        .feedback-author {
+            font-size: 1.5vw;
+            padding-top: 1%;
+        }
     }
 }
 
