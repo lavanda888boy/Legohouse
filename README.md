@@ -10,7 +10,7 @@ The website has several important sections and the header, footer respectively. 
 
     ![](screenshots/about-capture.png)
 
-    There categories listed in the header of the page are actually the links to the real sections of the website and can be accessed without any problems.
+    The three categories listed in the header of the page are actually the links to the real sections of the website and can be accessed without any problems.
 
     ![](screenshots/about-info.png)
 

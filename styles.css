@@ -189,6 +189,11 @@
 }
 
 
+button:hover {
+    filter: brightness(0.85);
+}
+
+
 footer {
     background-color: #2B2D42;
     display: flex;
@@ -196,8 +201,10 @@ footer {
 
     .footer-company {
         color: white;
-        font-size: 30px;
-        padding: 2%;
+        font-size: 2vw;
+        padding-top: 1.9%;
+        padding-bottom: 2.5%;
+        padding-left: 2%;
     }
 
     .footer-links {
