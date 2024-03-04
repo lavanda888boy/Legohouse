@@ -192,7 +192,7 @@
                 }
 
                 .product-price {
-                    padding: 1.5%;
+                    padding: 2%;
                     margin-left: 35.25%;
                     margin-right: 20%;
                     border-radius: 10px;
@@ -270,33 +270,32 @@
 
 @media screen and (max-device-width: 600px) {
     .page-action {
+        background-color: #2b2d42;
 
         .action-capture {
-            position: absolute;
-            padding-left: 7%;
-            padding-right: 30%;
-            padding-top: 5%;
+            padding-top: 7%;
+            padding-bottom: 7%;
+            padding-left: 10%;
+            padding-right: 10%;
             color: #EDF2F4;
+            text-align: center;
             font-size: 5vw;
             font-weight: bold;
         }
 
         .action-button {
-            position: absolute;
-            padding: 1%;
-            margin-top: 7%;
-            margin-left: 77%;
-            margin-right: 3%;
+            padding: 2%;
+            margin-left: 35%;
+            margin-right: 10%;
             border-radius: 10px;
             border-width: 0;
-            font-size: 3.8vw;
+            font-size: 6vw;
             background-color: #EF233C;
             color: white
         }
 
         .action-image {
-            max-width: 100%;
-            height: auto;
+            display: none;
         }
     }
 }
