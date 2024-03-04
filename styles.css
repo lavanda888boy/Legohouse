@@ -408,6 +408,27 @@ button:hover {
 
 
 @media screen and (max-device-width: 600px) {
+    .page-mascot {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 50%;
+        border: 3px solid #73AD21;
+        
+        .page-mascot-png {
+            padding-left: 47%;
+            max-width: 50%;
+            height: auto;
+        }
+    }
+}
+
+@media screen and (min-device-width: 600px) {
+
+}
+
+
+@media screen and (max-device-width: 600px) {
     footer {
         background-color: #2B2D42;
         display: flex;
