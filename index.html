@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Legohouse</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="styles.css"/>
 </head>
@@ -39,40 +40,41 @@
     </section>
 
     <section id="products" class="page-products">
-        <div class="product-element">
-            <div class="product-description">
-                <h3 class="product-title"> Manufactured Homes </h3>
-                <p class="product-info"> Experience the future of housing with our innovative modular homes, designed
-                    for sustainability and energy efficiency. Our houses are built using advanced modular construction
-                    techniques, ensuring high quality and faster build times. </p>
-                <button type="button" class="product-price"> Explore prices </button>
+        <div class="container-sm">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="img/manufactured.jpg" class="card-img-top" alt="Manufactured Homes">
+                        <div class="card-body">
+                            <h3 class="card-title">Mobile Homes</h3>
+                            <p class="card-text">Experience the future of housing with our innovative modular homes, designed for sustainability and energy efficiency. Our houses are built using advanced modular construction techniques, ensuring high quality and faster build times.</p>
+                            <button type="button" class="btn btn-primary">Explore prices</button>
+                        </div>
+                    </div>
                 </div>
 
-            <img src="img/manufactured.jpg" class="product-image">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="img/modular.jpg" class="card-img-top" alt="Modular Homes">
+                        <div class="card-body">
+                            <h3 class="card-title">Modular Homes</h3>
+                            <p class="card-text">Discover the next generation of living with our cutting-edge modular houses, crafted for sustainability and energy efficiency. Utilizing advanced construction methods, we ensure superior quality and rapid build times.</p>
+                            <button type="button" class="btn btn-primary">Explore prices</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="img/kit.jpg" class="card-img-top" alt="Kit Homes">
+                        <div class="card-body">
+                            <h3 class="card-title">Kit Homes</h3>
+                            <p class="card-text">Explore a new era of living with our innovative kit homes, meticulously designed for sustainability and energy efficiency. Through the modular construction, we deliver exceptional quality and swift build times.</p>
+                            <button type="button" class="btn btn-primary">Explore prices</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-        <div class="product-element">
-            <div class="product-description">
-                <h3 class="product-title"> Modular Homes </h3>
-                <p class="product-info"> Discover the next generation of living with our cutting-edge modular houses,
-                    crafted for sustainability and energy efficiency. Utilizing advanced construction methods, we ensure
-                    superior quality and rapid build times. </p>
-                <button type="button" class="product-price"> Explore prices </button>
-            </div>
-
-            <img src="img/modular.jpg" class="product-image">
-        </div>
-
-        <div class="product-element">
-            <div class="product-description">
-                <h3 class="product-title"> Kit Homes </h3>
-                <p class="product-info"> Explore a new era of living with our innovative kit homes, meticulously
-                    designed for sustainability and energy efficiency. Through the state-of-the-art modular construction, we
-                    deliver exceptional quality and swift build times. </p>
-                <button type="button" class="product-price"> Explore prices </button>
-            </div>
-
-            <img src="img/kit.jpg" class="product-image">
         </div>
     </section>
 
@@ -110,6 +112,8 @@
             <li class="link"> Join the team -> </li>
         </ul>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
 </html>
