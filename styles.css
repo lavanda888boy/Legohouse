@@ -526,6 +526,24 @@ button:hover {
 
 
 @media screen and (max-device-width: 600px) {
+    .scroll-to-top {
+        position: fixed;
+        bottom: 5%;
+        left: 1.5%;
+        background-color: blue;
+        color: white;
+        width: 37px;
+        height: 40px;
+        text-decoration: none;
+        text-align: center;
+        line-height: 2;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+}
+
+
+@media screen and (max-device-width: 600px) {
     footer {
         background-color: #2B2D42;
         display: flex;
