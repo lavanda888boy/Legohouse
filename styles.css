@@ -160,7 +160,41 @@
 
 
 @media screen and (max-device-width: 576px) {
-   
+    .page-products {
+        color: #2B2D42;
+        background-color: #EDF2F4;
+        
+        .card {
+            .card-body {
+                padding: 8%;
+                margin-top: 3%;
+                text-align: justify;
+        
+                .card-title {
+                    text-align: center;
+                    font-size: 7.5vw;
+                    font-weight: bold;
+                }
+        
+                .card-text {
+                    padding-top: 3%;
+                    font-size: 4vw;
+                    font-weight: 300;
+                    line-height: 1.5;
+                }
+        
+                .btn {
+                    margin-top: 5%;
+                    margin-left: 26.5%;
+                    margin-right: 26%;
+                    background-color: #EF233C;
+                    border-radius: 10px;
+                    border-width: 0;
+                    font-size: 4vw;
+                }
+            }
+        }
+    }
 }
 
 
@@ -227,8 +261,8 @@
 
         .action-button {
             padding: 2%;
-            margin-left: 35%;
-            margin-right: 10%;
+            margin-left: 32.5%;
+            margin-right: 30%;
             border-radius: 10px;
             border-width: 0;
             font-size: 6vw;
