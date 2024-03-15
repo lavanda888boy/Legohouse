@@ -113,28 +113,20 @@
 
 @media screen and (max-device-width: 576px) {
     .page-about {
-        display: flex;
-        flex-direction: column;
-        padding-top: 10%;
-        padding-bottom: 10%;
-        padding-left: 15%;
-        padding-right: 15%;
         line-height: 1.5;
         text-align: justify;
-        color: #2B2D42;
-    
+
+        .row {
+            display: none;
+        }
+
         .main-text-block {
-            margin-bottom: 5%;
             font-size: 4.5vw;
             font-weight: bold;
         }
-    
+
         .text-block {
             font-size: 4vw;
-        }
-
-        .text-block:not(:last-child) {
-            margin-bottom: 5%;
         }
     }
 } 
@@ -146,6 +138,10 @@
         padding-left: 2%;
         padding-right: 2%;
         line-height: 1.5;
+
+        .items-wrapper {
+            display: none;
+        }
 
         .main-text-block {
             font-size: 1.5vw;
@@ -165,6 +161,8 @@
         background-color: #EDF2F4;
         
         .card {
+            margin-top: 10%;
+
             .card-body {
                 padding: 8%;
                 margin-top: 3%;
@@ -193,6 +191,10 @@
                     font-size: 4vw;
                 }
             }
+        }
+
+        .card:last-child {
+            margin-bottom: 10%;
         }
     }
 }
